@@ -36,4 +36,5 @@ lst12 = [1, 2, 3, 4, 5]
 a = [i*5 for i in lst12]                                                   # Performs a certain operation for all the contents of the list.
 b = [e+5 for e in lst12]
 c = [o+o for o in lst12]
-print(a, b, c)                           # [7]
+d = [s for s in lst12 if s % 2 == 0]                                       # Conditional comprehension.
+print(a, b, c, d)                           # [7]
